@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShopActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="412dp"
+        android:layout_height="421dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.406">
+
+        <LinearLayout
+            android:id="@+id/linone"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            app:layout_column="0"
+            app:layout_row="0">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/apple" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="elma" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lintwo"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            app:layout_column="1"
+            app:layout_row="0"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linthree"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            app:layout_column="2"
+            app:layout_row="0"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linfour"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            app:layout_column="3"
+            app:layout_row="0"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linfive"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            app:layout_column="0"
+            app:layout_row="1"></LinearLayout>
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/light"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:id="@+id/homelin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            app:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                app:srcCompat="@drawable/ic_baseline_home_24" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/searchlin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            app:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                app:srcCompat="@drawable/ic_baseline_search_24" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            app:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/returnShopAndDonateButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/retunbuttonshape"
+                app:srcCompat="@drawable/ic_baseline_keyboard_arrow_up_24" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/accountlin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            app:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                app:srcCompat="@drawable/ic_baseline_account_box_24" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/myBasketLin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical"
+            app:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                app:srcCompat="@drawable/ic_baseline_shopping_basket_24" />
+        </LinearLayout>
+    </androidx.gridlayout.widget.GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/light"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_baseline_home_work_24" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="370dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Adres çekilecek !!!!" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
