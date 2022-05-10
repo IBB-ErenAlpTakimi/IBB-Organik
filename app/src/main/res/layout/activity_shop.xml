@@ -221,4 +221,20 @@
 
     </LinearLayout>
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="194dp"
+        android:layout_height="63dp"
+        android:text="Sebze"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="195dp"
+        android:layout_height="60dp"
+        android:text="Meyve"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="57dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

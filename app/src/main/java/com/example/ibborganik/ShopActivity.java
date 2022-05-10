@@ -19,5 +19,17 @@ public class ShopActivity extends AppCompatActivity {
                 startActivity(new Intent(ShopActivity.this, ShopAndDonate.class));
             }
         });
+
+        findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+    }
+    public static void getVegetables(){
+
+
     }
 }
+
