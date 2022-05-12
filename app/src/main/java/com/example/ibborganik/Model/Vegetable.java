@@ -1,5 +1,7 @@
 package com.example.ibborganik.Model;
 
+import java.util.Map;
+
 public class Vegetable {
     private String UrunAd;
     private String BirimTurId;
@@ -47,4 +49,5 @@ public class Vegetable {
     public String getHalTurId() {
         return HalTurId;
     }
+
 }

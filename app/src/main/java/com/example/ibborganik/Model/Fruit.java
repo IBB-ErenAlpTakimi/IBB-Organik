@@ -1,5 +1,8 @@
 package com.example.ibborganik.Model;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Fruit {
     private String UrunAd;
     private String BirimTurId;
@@ -47,14 +50,5 @@ public class Fruit {
     public String getHalTurId() {
         return HalTurId;
     }
+
 }
-/*
-"TabelaGId": "d85e962d-18dc-4a76-8a30-4bf49b8e88df",
-      "UrunAd": "Armut (Deveci)",
-      "BirimTurId": 1,
-      "KategoriId": 5,
-      "EnDusukFiyat": 10,
-      "EnYuksekFiyat": 15,
-      "GuneAit": "2022-05-11T00:00:00",
-      "HalTurId": 2
-*/

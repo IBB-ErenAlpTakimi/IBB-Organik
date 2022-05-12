@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Projects/Java/IBB-Organik/app/src/main/res/layout/activity_shop.xml" value="0.25" />
+        <entry key="..\:/Projects/Java/IBB-Organik/app/src/main/res/layout/activity_my_basket.xml" value="0.3390625" />
+        <entry key="..\:/Projects/Java/IBB-Organik/app/src/main/res/layout/activity_shop.xml" value="0.1" />
+        <entry key="..\:/Projects/Java/IBB-Organik/app/src/main/res/layout/shoplinear.xml" value="0.1" />
         <entry key="..\:/Projects/Java/IBB-Organik/app/src/main/res/layout/test.xml" value="0.358695652173913" />
         <entry key="..\:/Users/ealp1/StudioProjects/IBB-Organik/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/ealp1/StudioProjects/IBB-Organik/app/src/main/res/layout/activity_shop.xml" value="0.22826086956521738" />
