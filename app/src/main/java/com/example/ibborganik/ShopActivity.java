@@ -81,14 +81,14 @@ public class ShopActivity extends AppCompatActivity {
         findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                getVegeFruit(true);
+                //getVegeFruit(true);
             }
         });
 
         findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                getVegeFruit(false);
+                //getVegeFruit(false);
             }
         });
 
