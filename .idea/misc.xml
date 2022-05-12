@@ -10,7 +10,9 @@
         <entry key="app/src/main/res/drawable/whiteborder.xml" value="0.279" />
         <entry key="app/src/main/res/layout/activity_donate.xml" value="0.27447916666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.20471014492753623" />
-        <entry key="app/src/main/res/layout/activity_my_basket.xml" value="0.27447916666666666" />
+        <entry key="app/src/main/res/layout/activity_my_basket.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_my_profile.xml" value="0.253125" />
+        <entry key="app/src/main/res/layout/activity_search.xml" value="0.27447916666666666" />
         <entry key="app/src/main/res/layout/activity_shop.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_shop_and_donate.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.27447916666666666" />

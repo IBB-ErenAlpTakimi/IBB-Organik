@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ShopActivity">
+    tools:context=".SearchActivity">
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="416dp"
-        android:layout_height="397dp"
+        android:layout_width="422dp"
+        android:layout_height="320dp"
         app:layout_constraintBottom_toTopOf="@+id/gridLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-        app:layout_constraintVertical_bias="0.897">
+        app:layout_constraintVertical_bias="1.0">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -55,8 +55,8 @@
                         android:id="@+id/textView6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Fiyat"
-                        android:layout_gravity="center" />
+                        android:layout_gravity="center"
+                        android:text="Fiyat" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -112,45 +112,6 @@
         app:layout_constraintVertical_bias="1.0">
 
         <LinearLayout
-            android:id="@+id/homelin"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="10dp"
-            android:orientation="vertical"
-            app:layout_gravity="center">
-
-            <ImageView
-                android:id="@+id/homeClick"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:clickable="true"
-                android:layout_marginTop="12dp"
-                app:srcCompat="@drawable/ic_baseline_home_24" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/searchlin"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:orientation="vertical"
-            app:layout_gravity="center">
-
-            <ImageView
-                android:id="@+id/searchClick"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="12dp"
-                android:clickable="true"
-                app:srcCompat="@drawable/ic_baseline_search_24" />
-        </LinearLayout>
-
-        <LinearLayout
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_marginLeft="10dp"
@@ -167,106 +128,22 @@
                 app:srcCompat="@drawable/ic_baseline_keyboard_arrow_up_24" />
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/accountlin"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:orientation="vertical"
-            app:layout_gravity="center">
-
-            <ImageView
-                android:id="@+id/profileClick"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:clickable="true"
-                android:layout_marginTop="12dp"
-                app:srcCompat="@drawable/ic_baseline_account_box_24" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/myBasketLin"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:orientation="vertical"
-            app:layout_gravity="center">
-
-            <ImageView
-                android:id="@+id/basketclick"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="12dp"
-                android:clickable="true"
-                app:srcCompat="@drawable/ic_baseline_shopping_basket_24" />
-        </LinearLayout>
     </androidx.gridlayout.widget.GridLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_width="410dp"
+        android:layout_height="80dp"
         android:background="@color/light"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toTopOf="parent" >
 
-        <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_weight="1"
-            android:clickable="true"
-            app:srcCompat="@drawable/ic_baseline_home_work_24" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="370dp"
-            android:layout_height="30dp"
-            android:layout_marginTop="10dp"
-            android:layout_weight="1"
-            android:paddingLeft="10dp"
-            android:text="Adres çekilecek !!!!" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="58dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-        app:layout_constraintVertical_bias="0.0">
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="170dp"
-            android:layout_height="60dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="16dp"
-            android:text="Meyve" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="170dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginEnd="16dp"
-            android:text="Sebze" />
-
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

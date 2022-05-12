@@ -31,6 +31,35 @@ public class ShopActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.homeClick).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ShopActivity.this, MainActivity.class));
+            }
+        });
+
+        findViewById(R.id.basketclick).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ShopActivity.this, myBasketActivity.class));
+            }
+        });
+
+        findViewById(R.id.searchClick).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ShopActivity.this, SearchActivity.class));
+            }
+        });
+
+
+        findViewById(R.id.profileClick).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ShopActivity.this, MyProfileActivity.class));
+            }
+        });
+
         findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

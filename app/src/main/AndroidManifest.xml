@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IbbOrganik">
         <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".myBasketActivity"
             android:exported="false" />
         <activity
