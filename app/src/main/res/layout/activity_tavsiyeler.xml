@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:orientation="horizontal"
+        android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -292,9 +293,7 @@
                 <androidx.gridlayout.widget.GridLayout
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:layout_marginLeft="4dp">
-
-                </androidx.gridlayout.widget.GridLayout>
+                    android:layout_marginLeft="4dp"/>
 
             </LinearLayout>
 
@@ -327,6 +326,15 @@
             android:layout_weight="1"
             android:orientation="vertical"
             android:background="@color/light">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="KUŞ"
+                android:textSize="18dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView60"
