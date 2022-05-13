@@ -8,44 +8,42 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="410dp"
-        android:layout_height="390dp"
+        android:layout_width="match_parent"
+        android:layout_height="466dp"
         app:layout_constraintBottom_toTopOf="@+id/gridLayout2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
         app:layout_constraintVertical_bias="1.0">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="390dp"
+            android:layout_height="466dp"
             android:orientation="vertical">
 
             <androidx.gridlayout.widget.GridLayout
                 android:id="@+id/gridLayout"
-                android:layout_width="410dp"
-                android:layout_height="350dp" >
+                android:layout_width="390dp"
+                android:layout_height="350dp">
 
                 <LinearLayout
-                    android:layout_width="90dp"
+                    android:layout_width="80dp"
                     android:layout_height="130dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginLeft="5dp"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/imageView9"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         app:srcCompat="@drawable/apple" />
 
                     <TextView
                         android:id="@+id/textView18"
                         android:layout_width="match_parent"
-                        android:layout_marginBottom="4dp"
                         android:layout_height="16dp"
                         android:layout_gravity="center"
+                        android:layout_marginBottom="4dp"
                         android:gravity="center"
                         android:text="Elma" />
 
@@ -53,28 +51,27 @@
                         android:id="@+id/textView20"
                         android:layout_width="match_parent"
                         android:layout_height="16dp"
-                        android:text="Fiyat : 6₺"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Fiyat : 6₺" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="90dp"
+                    android:layout_width="80dp"
                     android:layout_height="130dp"
-                    android:layout_marginRight="10dp"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/imageView11"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         app:srcCompat="@drawable/armut" />
 
                     <TextView
                         android:id="@+id/textView100"
                         android:layout_width="match_parent"
-                        android:layout_marginBottom="4dp"
                         android:layout_height="16dp"
                         android:layout_gravity="center"
+                        android:layout_marginBottom="4dp"
                         android:gravity="center"
                         android:text="Armut" />
 
@@ -82,27 +79,27 @@
                         android:id="@+id/textView230"
                         android:layout_width="match_parent"
                         android:layout_height="16dp"
-                        android:text="Fiyat : 5₺"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Fiyat : 5₺" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="90dp"
+                    android:layout_width="80dp"
                     android:layout_height="130dp"
-                    android:layout_marginRight="10dp"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/imageView13"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         app:srcCompat="@drawable/cilek" />
+
                     <TextView
                         android:id="@+id/textView138"
                         android:layout_width="match_parent"
-                        android:layout_marginBottom="4dp"
                         android:layout_height="16dp"
                         android:layout_gravity="center"
+                        android:layout_marginBottom="4dp"
                         android:gravity="center"
                         android:text="Çilek" />
 
@@ -110,26 +107,27 @@
                         android:id="@+id/textView330"
                         android:layout_width="match_parent"
                         android:layout_height="16dp"
-                        android:text="Fiyat : 8₺"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Fiyat : 8₺" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="90dp"
+                    android:layout_width="80dp"
                     android:layout_height="130dp"
                     android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/imageView14"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         app:srcCompat="@drawable/blackmulberry" />
+
                     <TextView
                         android:id="@+id/textView148"
                         android:layout_width="match_parent"
-                        android:layout_marginBottom="4dp"
                         android:layout_height="16dp"
                         android:layout_gravity="center"
+                        android:layout_marginBottom="4dp"
                         android:gravity="center"
                         android:text="Dut" />
 
@@ -137,19 +135,19 @@
                         android:id="@+id/textView420"
                         android:layout_width="match_parent"
                         android:layout_height="16dp"
-                        android:text="Fiyat : 15₺"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Fiyat : 15₺" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:orientation="vertical"
                     app:layout_column="0"
-                    app:layout_row="1" >
+                    app:layout_row="1">
 
                     <ImageView
                         android:id="@+id/imageView15"
@@ -161,9 +159,9 @@
                     <TextView
                         android:id="@+id/textView188"
                         android:layout_width="match_parent"
-                        android:layout_marginBottom="4dp"
                         android:layout_height="16dp"
                         android:layout_gravity="center"
+                        android:layout_marginBottom="4dp"
                         android:gravity="center"
                         android:text="Greyfurt" />
 
@@ -171,16 +169,16 @@
                         android:id="@+id/textView203"
                         android:layout_width="match_parent"
                         android:layout_height="16dp"
-                        android:text="Fiyat : 12₺"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Fiyat : 12₺" />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
                     android:orientation="vertical"
                     app:layout_column="1"
                     app:layout_row="1">
@@ -195,9 +193,9 @@
                     <TextView
                         android:id="@+id/textView158"
                         android:layout_width="match_parent"
-                        android:layout_marginBottom="4dp"
                         android:layout_height="16dp"
                         android:layout_gravity="center"
+                        android:layout_marginBottom="4dp"
                         android:gravity="center"
                         android:text="Karpuz" />
 
@@ -205,15 +203,15 @@
                         android:id="@+id/textView240"
                         android:layout_width="match_parent"
                         android:layout_height="16dp"
-                        android:text="Fiyat : 15₺"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Fiyat : 15₺" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
                     android:orientation="vertical"
                     app:layout_column="2"
                     app:layout_row="1">
@@ -228,9 +226,9 @@
                     <TextView
                         android:id="@+id/textView1008"
                         android:layout_width="match_parent"
-                        android:layout_marginBottom="4dp"
                         android:layout_height="16dp"
                         android:layout_gravity="center"
+                        android:layout_marginBottom="4dp"
                         android:gravity="center"
                         android:text="Mandalina" />
 
@@ -238,15 +236,15 @@
                         android:id="@+id/textView2440"
                         android:layout_width="match_parent"
                         android:layout_height="16dp"
-                        android:text="Fiyat : 10₺"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Fiyat : 10₺" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
                     android:orientation="vertical"
                     app:layout_column="3"
                     app:layout_row="1">
@@ -261,9 +259,9 @@
                     <TextView
                         android:id="@+id/textView1548"
                         android:layout_width="match_parent"
-                        android:layout_marginBottom="4dp"
                         android:layout_height="16dp"
                         android:layout_gravity="center"
+                        android:layout_marginBottom="4dp"
                         android:gravity="center"
                         android:text="Avakado" />
 
@@ -271,16 +269,16 @@
                         android:id="@+id/textView2110"
                         android:layout_width="match_parent"
                         android:layout_height="16dp"
-                        android:text="Fiyat : 12₺"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Fiyat : 12₺" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
                     android:orientation="vertical"
                     app:layout_column="0"
                     app:layout_row="2">
@@ -295,9 +293,9 @@
                     <TextView
                         android:id="@+id/textView155"
                         android:layout_width="match_parent"
-                        android:layout_marginBottom="4dp"
                         android:layout_height="16dp"
                         android:layout_gravity="center"
+                        android:layout_marginBottom="4dp"
                         android:gravity="center"
                         android:text="Nar" />
 
@@ -305,15 +303,15 @@
                         android:id="@+id/textView2450"
                         android:layout_width="match_parent"
                         android:layout_height="16dp"
-                        android:text="Fiyat : 18₺"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Fiyat : 18₺" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
                     android:orientation="vertical"
                     app:layout_column="1"
                     app:layout_row="2">
@@ -324,12 +322,13 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/nektarin" />
+
                     <TextView
                         android:id="@+id/textView1000"
                         android:layout_width="match_parent"
-                        android:layout_marginBottom="4dp"
                         android:layout_height="16dp"
                         android:layout_gravity="center"
+                        android:layout_marginBottom="4dp"
                         android:gravity="center"
                         android:text="Şeftali" />
 
@@ -337,15 +336,15 @@
                         android:id="@+id/textView2430"
                         android:layout_width="match_parent"
                         android:layout_height="16dp"
-                        android:text="Fiyat : 12₺"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Fiyat : 12₺" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
                     android:orientation="vertical"
                     app:layout_column="2"
                     app:layout_row="2">
@@ -356,12 +355,13 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/uzum" />
+
                     <TextView
                         android:id="@+id/textView1344"
                         android:layout_width="match_parent"
-                        android:layout_marginBottom="4dp"
                         android:layout_height="16dp"
                         android:layout_gravity="center"
+                        android:layout_marginBottom="4dp"
                         android:gravity="center"
                         android:text="Üzüm" />
 
@@ -369,15 +369,15 @@
                         android:id="@+id/textView2040"
                         android:layout_width="match_parent"
                         android:layout_height="16dp"
-                        android:text="Fiyat : 14₺"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Fiyat : 14₺" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
                     android:orientation="vertical"
                     app:layout_column="3"
                     app:layout_row="2">
@@ -388,12 +388,13 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/kavun" />
+
                     <TextView
                         android:id="@+id/textView144"
                         android:layout_width="match_parent"
-                        android:layout_marginBottom="4dp"
                         android:layout_height="16dp"
                         android:layout_gravity="center"
+                        android:layout_marginBottom="4dp"
                         android:gravity="center"
                         android:text="Kavun" />
 
@@ -401,15 +402,15 @@
                         android:id="@+id/textView2540"
                         android:layout_width="match_parent"
                         android:layout_height="16dp"
-                        android:text="Fiyat : 40₺"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Fiyat : 40₺" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
                     android:orientation="vertical"
                     app:layout_column="0"
                     app:layout_row="3">
@@ -423,9 +424,9 @@
                     <TextView
                         android:id="@+id/textView15890"
                         android:layout_width="match_parent"
-                        android:layout_marginBottom="4dp"
                         android:layout_height="16dp"
                         android:layout_gravity="center"
+                        android:layout_marginBottom="4dp"
                         android:gravity="center"
                         android:text="Kayısı" />
 
@@ -433,15 +434,15 @@
                         android:id="@+id/textView24000"
                         android:layout_width="match_parent"
                         android:layout_height="16dp"
-                        android:text="Fiyat : 12₺"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Fiyat : 12₺" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
                     android:orientation="vertical"
                     app:layout_column="1"
                     app:layout_row="3">
@@ -455,9 +456,9 @@
                     <TextView
                         android:id="@+id/textView1098"
                         android:layout_width="match_parent"
-                        android:layout_marginBottom="4dp"
                         android:layout_height="16dp"
                         android:layout_gravity="center"
+                        android:layout_marginBottom="4dp"
                         android:gravity="center"
                         android:text="Muz" />
 
@@ -465,15 +466,15 @@
                         android:id="@+id/textView2490"
                         android:layout_width="match_parent"
                         android:layout_height="16dp"
-                        android:text="Fiyat : 15₺"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Fiyat : 15₺" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
                     android:orientation="vertical"
                     app:layout_column="2"
                     app:layout_row="3">
@@ -483,12 +484,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/kivi" />
+
                     <TextView
                         android:id="@+id/textView3448"
                         android:layout_width="match_parent"
-                        android:layout_marginBottom="4dp"
                         android:layout_height="16dp"
                         android:layout_gravity="center"
+                        android:layout_marginBottom="4dp"
                         android:gravity="center"
                         android:text="Kivi" />
 
@@ -496,15 +498,15 @@
                         android:id="@+id/textView24450"
                         android:layout_width="match_parent"
                         android:layout_height="16dp"
-                        android:text="Fiyat : 25₺"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Fiyat : 25₺" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="90dp"
-                    android:layout_height="90dp"
-                    android:layout_marginRight="10dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
                     android:orientation="vertical"
                     app:layout_column="3"
                     app:layout_row="3">
@@ -514,12 +516,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/kiraz" />
+
                     <TextView
                         android:id="@+id/textView1566"
                         android:layout_width="match_parent"
-                        android:layout_marginBottom="4dp"
                         android:layout_height="16dp"
                         android:layout_gravity="center"
+                        android:layout_marginBottom="4dp"
                         android:gravity="center"
                         android:text="Kiraz" />
 
@@ -527,8 +530,8 @@
                         android:id="@+id/textView2406"
                         android:layout_width="match_parent"
                         android:layout_height="16dp"
-                        android:text="Fiyat : 12₺"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Fiyat : 12₺" />
                 </LinearLayout>
             </androidx.gridlayout.widget.GridLayout>
         </LinearLayout>
