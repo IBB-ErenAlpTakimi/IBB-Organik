@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TavsiyelerActivity">
+
+    <LinearLayout
+        android:id="@+id/kediLin"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/kedi"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@color/light">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="KEDİ"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Uygun Olanlar"
+                    android:textSize="16dp"/>
+
+                <androidx.gridlayout.widget.GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp">
+
+                    <LinearLayout
+                        android:layout_width="158dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView40"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="4dp"
+                            android:text="Ispanak"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/textView36"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="4dp"
+                            android:text="Muz"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/textView34"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="4dp"
+                            android:text="Pirinç"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/textView38"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="4dp"
+                            android:text="Havuç"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="158dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView37"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="4dp"
+                            android:text="Et"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/textView39"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="4dp"
+                            android:text="Marul"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/textView35"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="4dp"
+                            android:text="Balık"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                </androidx.gridlayout.widget.GridLayout>
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Önerilmeyenler !" />
+
+                <androidx.gridlayout.widget.GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="4dp">
+
+                </androidx.gridlayout.widget.GridLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/kopekLin"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kediLin">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/kopek" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@color/light">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="KÖPEK"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Uygun Olanlar"
+                    android:textSize="16dp"/>
+
+                <androidx.gridlayout.widget.GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp">
+
+                    <LinearLayout
+                        android:layout_width="158dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView41"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="4dp"
+                            android:text="Tavuk"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/textView42"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="4dp"
+                            android:text="Et"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/textView43"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="4dp"
+                            android:text="Kabak"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/textView44"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="4dp"
+                            android:text="Ispanak"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="158dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView46"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="4dp"
+                            android:text="Bezelye"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/textView47"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="4dp"
+                            android:text="Yulaf"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/textView48"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="4dp"
+                            android:text="Yumurta"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/textView55"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="4dp"
+                            android:text="Yoğurt"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                </androidx.gridlayout.widget.GridLayout>
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Önerilmeyenler !" />
+
+                <androidx.gridlayout.widget.GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="4dp">
+
+                </androidx.gridlayout.widget.GridLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/kusLin"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kopekLin">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="4dp"
+            app:srcCompat="@drawable/kus" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@color/light">
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Uygun Olanlar"
+                android:textSize="16dp"/>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp">
+
+                <LinearLayout
+                    android:layout_width="158dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView61"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="4dp"
+                        android:text="Marul"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/textView62"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="4dp"
+                        android:text="Semizotu"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/textView63"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="4dp"
+                        android:text="Maydanoz"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/textView64"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="4dp"
+                        android:text="Muz"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="158dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView65"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="4dp"
+                        android:text="Elma"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/textView66"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="4dp"
+                        android:text="Ekmak"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/textView98"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="4dp"
+                        android:text="Peynir"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/textView67"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="4dp"
+                        android:text="Brokoli"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </androidx.gridlayout.widget.GridLayout>
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Önerilmeyenler !" />
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="4dp">
+
+            </androidx.gridlayout.widget.GridLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

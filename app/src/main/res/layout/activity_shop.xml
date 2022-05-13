@@ -8,8 +8,8 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="416dp"
-        android:layout_height="397dp"
+        android:layout_width="410dp"
+        android:layout_height="390dp"
         app:layout_constraintBottom_toTopOf="@+id/gridLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -19,13 +19,518 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="397dp"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <androidx.gridlayout.widget.GridLayout
                 android:id="@+id/gridLayout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_width="410dp"
+                android:layout_height="350dp" >
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        app:srcCompat="@drawable/apple" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Elma" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:text="Fiyat : 6₺"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        app:srcCompat="@drawable/armut" />
+
+                    <TextView
+                        android:id="@+id/textView100"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Armut" />
+
+                    <TextView
+                        android:id="@+id/textView230"
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:text="Fiyat : 5₺"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        app:srcCompat="@drawable/cilek" />
+                    <TextView
+                        android:id="@+id/textView138"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Çilek" />
+
+                    <TextView
+                        android:id="@+id/textView330"
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:text="Fiyat : 8₺"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="130dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        app:srcCompat="@drawable/blackmulberry" />
+                    <TextView
+                        android:id="@+id/textView148"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Dut" />
+
+                    <TextView
+                        android:id="@+id/textView420"
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:text="Fiyat : 15₺"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical"
+                    app:layout_column="0"
+                    app:layout_row="1" >
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/greyfurt" />
+
+                    <TextView
+                        android:id="@+id/textView188"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Greyfurt" />
+
+                    <TextView
+                        android:id="@+id/textView203"
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:text="Fiyat : 12₺"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    app:layout_column="1"
+                    app:layout_row="1">
+
+                    <ImageView
+                        android:id="@+id/imageView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/karpuz" />
+
+                    <TextView
+                        android:id="@+id/textView158"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Karpuz" />
+
+                    <TextView
+                        android:id="@+id/textView240"
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:text="Fiyat : 15₺"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    app:layout_column="2"
+                    app:layout_row="1">
+
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/portakal" />
+
+                    <TextView
+                        android:id="@+id/textView1008"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Mandalina" />
+
+                    <TextView
+                        android:id="@+id/textView2440"
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:text="Fiyat : 10₺"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    app:layout_column="3"
+                    app:layout_row="1">
+
+                    <ImageView
+                        android:id="@+id/imageView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/avakado" />
+
+                    <TextView
+                        android:id="@+id/textView1548"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Avakado" />
+
+                    <TextView
+                        android:id="@+id/textView2110"
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:text="Fiyat : 12₺"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical"
+                    app:layout_column="0"
+                    app:layout_row="2">
+
+                    <ImageView
+                        android:id="@+id/imageView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/nar" />
+
+                    <TextView
+                        android:id="@+id/textView155"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Nar" />
+
+                    <TextView
+                        android:id="@+id/textView2450"
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:text="Fiyat : 18₺"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    app:layout_column="1"
+                    app:layout_row="2">
+
+                    <ImageView
+                        android:id="@+id/imageView21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/nektarin" />
+                    <TextView
+                        android:id="@+id/textView1000"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Şeftali" />
+
+                    <TextView
+                        android:id="@+id/textView2430"
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:text="Fiyat : 12₺"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    app:layout_column="2"
+                    app:layout_row="2">
+
+                    <ImageView
+                        android:id="@+id/imageView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/uzum" />
+                    <TextView
+                        android:id="@+id/textView1344"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Üzüm" />
+
+                    <TextView
+                        android:id="@+id/textView2040"
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:text="Fiyat : 14₺"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    app:layout_column="3"
+                    app:layout_row="2">
+
+                    <ImageView
+                        android:id="@+id/imageView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/kavun" />
+                    <TextView
+                        android:id="@+id/textView144"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Kavun" />
+
+                    <TextView
+                        android:id="@+id/textView2540"
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:text="Fiyat : 40₺"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    app:layout_column="0"
+                    app:layout_row="3">
+
+                    <ImageView
+                        android:id="@+id/imageView24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/kayisi" />
+
+                    <TextView
+                        android:id="@+id/textView15890"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Kayısı" />
+
+                    <TextView
+                        android:id="@+id/textView24000"
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:text="Fiyat : 12₺"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    app:layout_column="1"
+                    app:layout_row="3">
+
+                    <ImageView
+                        android:id="@+id/imageView25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/muz" />
+
+                    <TextView
+                        android:id="@+id/textView1098"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Muz" />
+
+                    <TextView
+                        android:id="@+id/textView2490"
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:text="Fiyat : 15₺"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    app:layout_column="2"
+                    app:layout_row="3">
+
+                    <ImageView
+                        android:id="@+id/imageView26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/kivi" />
+                    <TextView
+                        android:id="@+id/textView3448"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Kivi" />
+
+                    <TextView
+                        android:id="@+id/textView24450"
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:text="Fiyat : 25₺"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    app:layout_column="3"
+                    app:layout_row="3">
+
+                    <ImageView
+                        android:id="@+id/imageView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/kiraz" />
+                    <TextView
+                        android:id="@+id/textView1566"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Kiraz" />
+
+                    <TextView
+                        android:id="@+id/textView2406"
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:text="Fiyat : 12₺"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.gridlayout.widget.GridLayout>
         </LinearLayout>
     </ScrollView>
 
@@ -136,15 +641,14 @@
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_width="405dp"
+        android:layout_height="59dp"
         android:background="@color/light"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/imageView7"
@@ -160,11 +664,12 @@
         <TextView
             android:id="@+id/textView4"
             android:layout_width="370dp"
-            android:layout_height="30dp"
+            android:layout_height="40dp"
             android:layout_marginTop="10dp"
             android:layout_weight="1"
+            android:layout_gravity="center"
             android:paddingLeft="10dp"
-            android:text="Adres çekilecek !!!!" />
+            android:text="Hürriyet Mah. 118. Sok Safran Apart. Daire:5 İstanbul" />
 
     </LinearLayout>
 

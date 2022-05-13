@@ -3,6 +3,7 @@
     package="com.example.ibborganik">
 
     <permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,6 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IbbOrganik">
+        <activity
+            android:name=".TavsiyelerActivity"
+            android:exported="false" />
         <activity
             android:name=".SearchActivity"
             android:exported="false" />
